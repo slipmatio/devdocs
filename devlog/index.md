@@ -1,12 +1,10 @@
-# Dev Log
+# Development Log
+
+These are short daily logs about the development process. Read also [development notes](./notes.md) for random thought and ideas that are bubbling behind the scenes.
 
 ## February 2020
 
-- Created first tickets for requirements and [built a dynamic list on the requirements page](/architecture/requirements/index.md) that shows the progress of the work.
-- Started fleshing out [technical requirements](/architecture/requirements/index.md). This is going to be a big project in itself, but in the end very useful to be able to plan out the work and schedule.
-- Sketched out [Slipmat 1, 2 and 3 architectures](/architecture/diagrams.md) based on an old diagram.
-- Created (these) docs + started this dev log
-- Posted [Slipmat.io Development Update 2/2020](https://backstage.slipmat.io/t/slipmat-io-development-update-2-2020/1864) to Backstage.
+!!!include(latest_devlogs.md)!!!
 
 ## January 2020
 

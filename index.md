@@ -1,14 +1,18 @@
 ---
-sidebar: false
+sidebar: true
 ---
 
-# Slipmat3 Development Docs
+# Slipmat3 Developer Docs
 
-The next evolution of Slipmat.io is in the works and this is the public **developer documentation** for the work. This is **not** intended for Slipmat DJs nor listeners.
+The next evolution of Slipmat.io is in the works and this is the public **developer documentation** for the work. Please note that this is a **work in pogress**, so unless explicitly stated, nothing you see here is to be considered final.
 
-- [Development Log](devlog/index.md)
-- [Development Notes](notebook/index.md)
-- [Features and roadmap](features/index.md)
-- [Architecture](architecture/index.md)
-- [Requirements](architecture/requirements/index.md)
-- [Philosophy](philosophy/index.md)
+## Latest updates
+
+!!!include(latest_devlogs.md)!!!
+
+Read [more development logs](devlog/index.md).
+
+## Repositories
+
+- Issues: [https://gitlab.com/slipmatio/development](https://gitlab.com/slipmatio/development)
+- Developer Docs: [https://gitlab.com/slipmatio/slipmat3-devdocs](https://gitlab.com/slipmatio/slipmat3-devdocs)

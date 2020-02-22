@@ -1,6 +1,6 @@
-# Dev Notes
+# Development Notes
 
-Generic ideas and notes about Slipmat3 development.
+Generic notes ideas and notes about Slipmat3 development.
 
 - We should use something like rewrites in the frontend for urls like `/api/` to be able to make xhr calls without triggering CORS.
 

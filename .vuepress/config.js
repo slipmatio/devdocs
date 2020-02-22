@@ -9,34 +9,47 @@ glob.sync('architecture/requirements/*.md').map(function(filename) {
 })
 
 module.exports = {
-  title: 'Slipmat3 Dev Docs',
-  description: 'Developer documentation for the new Slipmat.io platform.',
+  title: 'Slipmat3 Developer Docs',
+  description: 'Developer documentation for Slipmat.io platform v3.',
   themeConfig: {
+    repo: 'https://gitlab.com/slipmatio/slipmat3-devdocs',
+    repoLabel: '',
+    editLinks: true,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Development Log', link: '/devlog/' },
       { text: 'Slipmat Next', link: 'https://next.slipmat.io' },
     ],
-    sidebar: [
-      '/devlog/',
-      '/notebook/',
-      '/features/',
-      '/architecture/',
-
-      {
-        title: 'Requirements',
-        path: '/architecture/requirements/',
-        // collapsable: false,
-        children: requirements,
-      },
-      '/philosophy/',
-    ],
+    sidebar: {
+      '/architecture/requirements/': [
+        '/devlog/',
+        '/features/',
+        '/architecture/',
+        {
+          title: 'Requirements',
+          path: '/architecture/requirements/',
+          collapsable: false,
+          children: requirements,
+        },
+        '/philosophy/',
+      ],
+      '': [
+        '/devlog/',
+        '/features/',
+        '/architecture/',
+        '/architecture/requirements/',
+        '/philosophy/',
+      ],
+    },
     sidebarDepth: 2,
     lastUpdated: 'Last Updated', // string | boolean
     logo: '/assets/img/slipmat.png',
   },
   markdown: {
     extractHeaders: ['h2', 'h3', 'h4'],
+    extendMarkdown: md => {
+      md.use(require('markdown-it-include'), '.vuepress/includes/')
+    },
   },
   extraWatchFiles: [...requirements],
   plugins: [
