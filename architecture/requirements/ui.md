@@ -37,7 +37,8 @@ Following is a list of pages or features (many of which have several states) tha
 - Public show
 - DJ Public profile
 - Live event
-- Public tag list ("Explore"?)
+- Community (top-lists, artists, Backstage posts etc.)
+- Explore (tags, shows, artists)
 - Public tag detail
 - Subscription pricing
 - Subscribe for a subscription
