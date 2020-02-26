@@ -9,10 +9,11 @@
 
 - Python 3.8
 - Django 3
+- Redis 6
 
 ### Frontend
 
-- Vue 2/3 w/ Vue CLI
+- Vue 3 w/ Vue CLI
 - Tailwind CSS
 
 ### Opinionated Devtools
@@ -25,8 +26,7 @@
 - GitLab
 - Docker
 - Traefik
-- Netlify (main frontend)
-- Zeit.co (docs)
+- Netlify (main frontend, docs)
 
 ## Code Organization
 
@@ -35,7 +35,7 @@
 - **core**
   - [Authentication](./requirements/authentication.md)
   - [Tags](./requirements/tags.md)
-  - [Emails](./requirements/emails.md)
+  - [Email sending](./requirements/email-sending.md)
   - [Logs](./requirements/logs.md)
   - [Backups](./requirements/backups.md)
   - [Background tasks](./requirements/background-tasks.md)
@@ -75,5 +75,4 @@
 - [django-taggit](https://github.com/jazzband/django-taggit) for tagging
 - [django-anymail](https://github.com/anymail/django-anymail) for emails
 - [django-friendship](https://github.com/revsys/django-friendship) for managing friendships and blocks
-- [django-q](https://github.com/Koed00/django-q) for backend tasks
 - [django-rest-framework](https://www.django-rest-framework.org/) for the API

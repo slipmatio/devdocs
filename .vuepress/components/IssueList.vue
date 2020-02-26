@@ -45,7 +45,7 @@ const REQUIREMENT_DOCS = [
   { id: '6', url: '/architecture/requirements/checklists.html' },
   { id: '7', url: '/architecture/requirements/dj-analytics.html' },
   { id: '8', url: '/architecture/requirements/djs.html' },
-  { id: '9', url: '/architecture/requirements/emails.html' },
+  { id: '9', url: '/architecture/requirements/email-sending.html' },
   { id: '10', url: '/architecture/requirements/events.html' },
   { id: '11', url: '/architecture/requirements/feedback.html' },
   { id: '12', url: '/architecture/requirements/festivals.html' },
