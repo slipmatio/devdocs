@@ -5,6 +5,7 @@
 - Frontend and backend should get very high (> 80) points from [Mozilla Observatory](https://observatory.mozilla.org/).
 - Frontend should get near-100 points from [Lighthouse](https://developers.google.com/web/tools/lighthouse/) test.
 - Both frontend and backend code sould be deployed via a fully automatic CI/CD procress.
+- All API traffic should have audition logs. (And we should provide users a log of their own activities for security purposes.)
 
 ## Requirement Status
 

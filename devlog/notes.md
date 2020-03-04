@@ -6,6 +6,7 @@ Generic notes ideas and notes about Slipmat3 development.
 
 ## Random ideas
 
+- Should we consider encrypting some of the content in the database? In the world of unencrypted messengers (and our own unencrypted chat) how important is it to encrypt other private data? Only staff can see the data in any case. (But it would be very nice thing to have, especially for the chat.)
 - Should be offer a stream forwarding option as well? It would be fairly easy to implement on top of the streamer and it would probably add value to those DJs who multistream.
 - Providing an Oauth2 server would enable us to allow DJs to implement a "Sign In via Slipmat.io" flow and enable things like Slipmat commenting and other features in third-party sites. Tuulipukukoodi could be a good test ground here. (In practise this would lower the barrier for listeners to participate outside of events as they wouldn't need another account to do so.)
 - Our **static media** is 90% event images which again are relevant for fairly short time (typically ~30 days total). We should probably design a method for hosting these from CDN at first but later via a normal Whitespace-powered Nginx setup straight from our app servers which have unlimited transfer per month. This could easily be done w/ two distinct medial URLs for any resource, plus [B2 lifetime rules](https://www.backblaze.com/b2/docs/lifecycle_rules.html) together with CloudFront CDN. (Low prio.)

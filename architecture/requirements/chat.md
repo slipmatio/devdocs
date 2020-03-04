@@ -9,6 +9,7 @@ This document is still under development.
 - V2 implementation relies heavily in unstructured dictionaries passed between functions, these should be refactored as `ChatMessage` dataclasses for easier testing and development.
 - V2 implementation works only half-way with websockets. New implementation should rely only on websockets for normal operation.
 - Instead of (permanent) muting we should opt for timeout-concept instead: 2-10 min timeouts that automatically resolve. Timeous should add to negative Karma as well.
+- We should do more investigations to third-party backends. In the long term developing our own chat platform is not a very smart thing to do, and things like e2e-encryption and native apps would be a great thing to have. Also having bridges to other platforms and apps would be a very good idea.
 
 ## User Stories
 
