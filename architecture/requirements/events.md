@@ -7,6 +7,7 @@ This document is still under development.
 ## Tehchnical
 
 - V2 event fat models have become seriously obese. (The DJ-related app models.py is over 1600 lines long, user-related one is nearly 900 lines.) These need to be splitted into multiple packages and especially the main event model needs to be completely refactored to make it more lean.
+- The warmup phase could be made optional. Many DJs don't have the need for a warmup phase so we might as well get rid of it for them.
 
 ## User Stories
 
