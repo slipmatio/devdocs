@@ -11,8 +11,14 @@ This document is still under development.
 
 ## User Stories
 
+### User
+
+- As a user I should be able to list and read all non-private events via the API.
+- As a user I should be able to read private events with a direct link via the API.
+
 ### DJ
 
 - As a DJ I should be able to start an event with zero-configuration, just by starting my streamer.
 - As a DJ I should be able to schedule my event far into the future.
 - As a DJ I should be able to get a modern and well-working marketing page for my scheduled events after putting in proper metadata and content.
+- As a DJ I should be able to list and read all my events (including private) via the API.
