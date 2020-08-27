@@ -4,17 +4,17 @@ Generic design principles and guidelines that govern the development of Slipmat3
 
 ## Iterative Design
 
-When developing new features, development should be splitted up in multiple iterations. At the very minimum: first iteration should be considered as private beta, iteration 2 public beta and iteration 3 the first generally available iteration. Feature flags should be used to be able to test with a small group and to push new features into production as fast as possible.
+When developing new features, development should be splitted up in multiple iterations. At the very minimum: first iteration should be considered as private beta, second iteration public beta and third iteration the first generally available version. **Feature flags** should be used to be able to test with a small group and to push new features into production as fast as possible.
 
-Feature development should be done via merge requests and tickets that have a standard templates that require pre-defined steps (like docs and testing) to be completed in order to merge.
+Feature development should be done via merge requests and tickets that have a standard templates which require pre-defined steps (like docs and testing) to be completed in order to merge.
 
 ## High Standards
 
-While iteration is important, no new feature should be made publich without a decent amount of polish. In practise this means that even the very first iterations should look and feel finished, and things like testing and error handling should be implemented properly.
+While iteration is important, no new feature should be made publich without a decent amount of polish. In practise this means that _even the first iterations should look and feel finished_, and things like testing and error handling should be implemented properly.
 
 All features and important aspects of the functionality of the product should be covered with proper tests. All regressions should be fixed with acompanying integration tests.
 
-All changes to the product should have a witten technical and end-user documentation. Technical documentation should be written partly as an implementation guide and end-user documentation should be available for every important part of the product.
+All changes to the product should have a written technical and end-user documentation. Technical documentation should be written partly as an implementation guide and end-user documentation should be available for every important part of the product.
 
 ## Privacy and Security
 
