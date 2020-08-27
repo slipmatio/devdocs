@@ -12,7 +12,7 @@
 
 ### Frontend
 
-- Vue 2/3 w/ Vue CLI
+- Vue 3 w/ TypeScript using Vue CLI or Vite
 - Tailwind CSS
 
 ### Opinionated Devtools
@@ -26,7 +26,7 @@
 - Docker
 - Traefik
 - Netlify (main frontend)
-- Zeit.co (docs)
+- Vercel (docs)
 
 ## Code Organization
 
