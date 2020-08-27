@@ -9,7 +9,8 @@ This document is still under development.
 ## Tehchnical
 
 - Authentication should work well with mobile and also from third-party apps / outside of the main site.
-- This should be implemented with JWTs or similarr tokens.
+- This should be implemented with JWTs or similar tokens.
+- We should check all new passwords against [Pwned Passwords database](https://haveibeenpwned.com/Passwords). (There probably is a Django solution available already.)
 
 ## User Stories
 

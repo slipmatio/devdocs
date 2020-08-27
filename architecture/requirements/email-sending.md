@@ -1,4 +1,4 @@
-# Emails
+# Email Sending
 
 ::: warning Work in progress
 This document is still under development.
@@ -10,6 +10,10 @@ This document is still under development.
 - Email marketing should be done via a separate tool so it gets done correctly.
 - We need to build a log dashboard for admins. (See [anymail docs](https://anymail.readthedocs.io/en/latest/sending/signals/#post-send-signal), [issue #27](https://github.com/anymail/django-anymail/issues/27).)
 - We should track all emails sent to be able to respond to support questions ("I didn't get confirmation email.") and abuse/errors (for example act if user marks valid emails as spam). [Mailgun webhook docs](https://documentation.mailgun.com/en/latest/user_manual.html#webhooks), [Anymail webhook docs](https://anymail.readthedocs.io/en/stable/sending/tracking/).
+- We should have an easy way to create and use email templates. Should investigate [Maizzle](https://maizzle.com/).
+- All transactional emails need to be rewritten and documented.
+- Webhooks from sending backends need to be properly implemented so that things won't get out of sync. (For example if someone unsubscribe from the list, they should be changed in Djang db as well, or if they change their email, their list email probably needs changing as well etc.)
+- We currently have an inconsistent way for figuring out the users primary email. This should be implemented in dead-simple and fullproof way.
 
 ## User Stories
 

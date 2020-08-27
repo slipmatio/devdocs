@@ -1,1 +1,0 @@
-- Started a new project from clean slate for Slipmat Admin for figuring out the best way to build new user-facing UIs for artists and users. This is based on Vue 3, automatically tested with Cypress and automatically deployed via Vercel.
