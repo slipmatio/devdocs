@@ -8,7 +8,7 @@ The next evolution of Slipmat.io is in the works and this is the public **develo
 
 ## Latest updates
 
-- Started a new project from clean slate for Slipmat Admin for figuring out the best way to build new user-facing UIs for artists and users. This is based on Vue 3, automatically tested with Cypress and automatically deployed via Vercel.
+- Published [@slipmatio/logger](https://www.npmjs.com/package/@slipmatio/logger) and [@slipmatio/tailwind-config](https://www.npmjs.com/package/@slipmatio/tailwind-config) packages on NPM. These are our first public and open source NPM packages!
 
 Read [more development logs](devlog/index.md).
 

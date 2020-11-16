@@ -2,6 +2,20 @@
 
 These are short daily logs about the development process. Read also [development notes](./notes.md) for random thought and ideas that are bubbling behind the scenes.
 
+## November 2020
+
+- Published [@slipmatio/logger](https://www.npmjs.com/package/@slipmatio/logger) (WIP) and [@slipmatio/tailwind-config](https://www.npmjs.com/package/@slipmatio/tailwind-config) packages on NPM. These are our first public and open source NPM packages! The logger is an older project repackaged and needs a bit of work to be properly usable.
+
+## October 2020
+
+- Started a new [Slipmat Program Builder](https://program-builder.vercel.app) experiment project using the new project layout. It seems to work pretty well and most of the needed basic building blocks are now ready.
+- Worked on the [new chat requirements](/architecture/requirements/chat.md).
+
+## September 2020
+
+- Started a new project from clean slate for Slipmat Admin for figuring out the best way to build new user-facing UIs for artists and users. This is based on Vue 3, automatically tested with Cypress and automatically deployed via Vercel.
+- Also started experimenting with a [new datatable component](https://github.com/Uninen/datatable-experiment) ([live demo](https://datatable-experiment.vercel.app/)) that could be used in all Slipmat projects instead of writing every list view by hand. The rabbit hole was pretty deep here but the alpha component is currently already in use with the new admin site.
+
 ## August 2020
 
 - Started a new project from clean slate for Slipmat Admin for figuring out the best way to build new user-facing UIs for artists and users. This is based on Vue 3, automatically tested with Cypress and automatically deployed via Vercel.
