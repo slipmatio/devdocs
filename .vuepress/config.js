@@ -38,6 +38,7 @@ module.exports = {
         '/features/',
         '/architecture/',
         '/architecture/requirements/',
+        '/contributing/',
         '/philosophy/',
       ],
     },
@@ -47,7 +48,7 @@ module.exports = {
   },
   markdown: {
     extractHeaders: ['h2', 'h3', 'h4'],
-    extendMarkdown: md => {
+    extendMarkdown: (md) => {
       md.use(require('markdown-it-include'), '.vuepress/includes/')
     },
   },
