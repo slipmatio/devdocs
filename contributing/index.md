@@ -64,7 +64,7 @@ To put it short: Slipmat volunteers are not responsible for anything that happen
 
 ### Contributor License Agreement
 
-Slipmat is not yet open source (we hope to be one day) and it's important that all contributors sign the Contributor License Agreement so that the code ownership is clear. By signing the CLA, you state that you are entitled to contibute that code and are willing to it be used by Slipmat and any derivative works. The CLA also ensures that once you have provided a contribution, you cannot try to withdraw permission for its use at a later date.
+Slipmat is not yet open source (we hope to be one day) and it's important that all contributors sign a Contributor License Agreement so that the code ownership stays clear. By signing the CLA, you state that you are entitled to contibute that code and are willing to it be used by Slipmat and any derivative works. The CLA also ensures that once you have provided a contribution, you cannot try to withdraw permission for its use at a later date.
 
 CLA is a license agreement, not a copyright assignment. You still maintain the full copyright for your contributions. You are only providing a license to Slipmat to distribute your code without further restrictions.
 
