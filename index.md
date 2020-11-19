@@ -4,7 +4,7 @@ sidebar: true
 
 # Slipmat3 Developer Docs
 
-The next evolution of Slipmat.io is in the works and this is the public **developer documentation** for the work. Please note that this is a **work in pogress**, so unless explicitly stated, nothing you see here is to be considered final.
+The next evolution of Slipmat.io is in the works and this is the public **developer documentation** for the work. Please note that this is a **work in progress**, so unless explicitly stated, nothing you see here is to be considered final.
 
 ## Latest updates
 
