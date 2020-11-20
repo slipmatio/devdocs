@@ -21,7 +21,7 @@ Current Slipmat codebase is currently written with
 You need the following:
 
 - Node LTS
-- TypeScript
+- Yarn (classic)
 - Git
 - GitLab account
 - Discord account
