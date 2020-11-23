@@ -8,6 +8,7 @@ The next evolution of Slipmat.io is in the works and this is the public **develo
 
 ## Latest updates
 
+- Added [Contributing section](contributing/index.md) with basic information on how to contribute to Slipmat projects.
 - Published [@slipmatio/logger](https://www.npmjs.com/package/@slipmatio/logger) and [@slipmatio/tailwind-config](https://www.npmjs.com/package/@slipmatio/tailwind-config) packages on NPM. These are our first public and open source NPM packages!
 
 Read [more development logs](devlog/index.md).

@@ -4,6 +4,7 @@ These are short daily logs about the development process. Read also [development
 
 ## November 2020
 
+- Added [Contributing section](../contributing/index.md) with basic information on how to contribute to Slipmat projects.
 - Published [@slipmatio/logger](https://www.npmjs.com/package/@slipmatio/logger) (WIP) and [@slipmatio/tailwind-config](https://www.npmjs.com/package/@slipmatio/tailwind-config) packages on NPM. These are our first public and open source NPM packages! The logger is an older project repackaged and needs a bit of work to be properly usable.
 
 ## October 2020

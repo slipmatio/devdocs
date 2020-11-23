@@ -26,6 +26,7 @@ You need the following:
 - GitLab account
 - Discord account
 - Slipmat / Backstage account
+- FireFox (the officially supported and recommended browser for Slipmat projects) and Chrome for development and testing
 
 #### Recommended tooling
 
@@ -37,6 +38,9 @@ Apart from GitLab, you can use whatever tools work best for you, the following a
   - Tailwind Intellisense extension for TailwindCSS
 - Docker for running backend services
 - Gitlab Runner for local testing
+- Postman or some alternative (like Postwoman or Paw) for API development
+- ngrok for tunneling requests from the Web to your local machine
+- vue-devtools browser extension for developing and debugging Vue
 
 ## Coding Guidelines
 
