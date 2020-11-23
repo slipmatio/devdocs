@@ -66,6 +66,7 @@ We follow [Contributing to Django](https://docs.djangoproject.com/en/3.1/interna
 - Merge Requests are for humans so whenever opening a new MR for a feature or larger task, use some time in making it human-readable and as clear as possible. This means 1) using a well-written title, 2) describing the task clearly in the MR description, 3) referencing all related tickets, other MRs and other relevant data in the description, 4) providing screenshots and other design documents if relevant, and 5) keeping the MR description up to date at all times. Do also use task lists inside the description whenever possible to make it easier for others to see and follow the status of the MR.
 - GitLab is our single point of truth and main collaboration tool so all our important design decisions and other relevant discussion should happen in the ticket and merge request comments. Feel free to link planning documents and other external data as well.
 - Code review is one of the most effective ways to learn and offer help to your peers. Try to contribute to as many MR:s as you can. Please be civil with your comments.
+- It's advisable to learn [GitLab keyboard shortcuts](https://docs.gitlab.com/ee/user/shortcuts.html)
 
 ## Contributor Responsibilities
 
