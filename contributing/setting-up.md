@@ -11,4 +11,4 @@ git config --global user.email "you@email.com"
 
 If you don't want to change your global configuration, you can set these also per-repository by editing `.git/config` in each repo.
 
-Also make sure that your profile settings are correct in GitLab.
+Also make sure that your GitLab profile settings are correct and match your local settings.
