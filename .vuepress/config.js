@@ -53,12 +53,5 @@ module.exports = {
     },
   },
   extraWatchFiles: [...requirements],
-  plugins: [
-    [
-      'plausible-analytics',
-      {
-        domain: 'developer.slipmat.io',
-      },
-    ],
-  ],
+  plugins: ['plausible-analytics'],
 }
