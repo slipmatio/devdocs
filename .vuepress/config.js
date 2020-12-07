@@ -55,9 +55,9 @@ module.exports = {
   extraWatchFiles: [...requirements],
   plugins: [
     [
-      '@vuepress/google-analytics',
+      'plausible-analytics',
       {
-        ga: 'UA-41815464-11',
+        domain: 'developer.slipmat.io',
       },
     ],
   ],

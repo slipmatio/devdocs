@@ -7,15 +7,15 @@
     "build": "vuepress build"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.2",
     "fs": "^0.0.1-security",
-    "glob": "^7.1.6",
-    "lodash-es": "^4.17.15",
+    "glob": "^7.1",
+    "lodash-es": "^4.17",
     "markdown-it-include": "^1.1.0",
-    "needle": "^2.3.2",
-    "vuepress": "^1.3.0"
+    "needle": "^2.5",
+    "vuepress": "^1.7"
   },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.3.1"
+    "vuepress-plugin-plausible-analytics": "^0.2"
   }
 }
