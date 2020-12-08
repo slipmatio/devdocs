@@ -6,6 +6,7 @@ This document is still under development.
 
 ## Tehchnical
 
+- We should base the next stack on top of Matrix. Maybe Slipmat homeserver + Slipmat native Chat client for live events and Web + some 3rd-party client for off-event use.
 - V2 implementation relies heavily in unstructured dictionaries passed between functions, these should be refactored as `ChatMessage` dataclasses for easier testing and development.
 - V2 implementation works only half-way with websockets. New implementation should rely only on websockets for normal operation.
 - Instead of (permanent) muting we should opt for timeout-concept instead: 2-10 min timeouts that automatically resolve. Timeous should add to negative Karma as well.
@@ -49,3 +50,7 @@ This document is still under development.
 ### Admin
 
 - As admin I should be able to join (only) public channels unnoticed
+
+## Notes
+
+- This was very interesting (it only took about 2 months): https://matrix.org/blog/2020/12/07/gitter-now-speaks-matrix
