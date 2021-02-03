@@ -11,9 +11,9 @@
     "fs": "^0.0.1-security",
     "glob": "^7.1",
     "lodash-es": "^4.17",
-    "markdown-it-include": "^1.1.0",
-    "needle": "^2.5",
-    "vuepress": "^1.7"
+    "markdown-it-include": "^1.1",
+    "needle": "^2.6",
+    "vuepress": "^1.8"
   },
   "devDependencies": {
     "vuepress-plugin-plausible-analytics": "^0.2"
