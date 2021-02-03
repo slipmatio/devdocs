@@ -8,8 +8,9 @@ The next evolution of Slipmat.io is in the works and this is the public **develo
 
 ## Latest updates
 
-- Added [Contributing section](contributing/index.md) with basic information on how to contribute to Slipmat projects.
-- Published [@slipmatio/logger](https://www.npmjs.com/package/@slipmatio/logger) and [@slipmatio/tailwind-config](https://www.npmjs.com/package/@slipmatio/tailwind-config) packages on NPM. These are our first public and open source NPM packages!
+- Added [section about documentation](/architecture/requirements/documentation.md)
+- Over a year in the making, we now have an actual [Iteration Plan ticket](https://gitlab.com/slipmatio/development/-/issues/41) in the works and a plan to open up the new beta in Q1 2021!
+- Created [labs.slipmat.io](https://labs.slipmat.io/) that collects and lists all the past and current experimental development projects.
 
 Read [more development logs](devlog/index.md).
 

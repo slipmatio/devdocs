@@ -2,6 +2,20 @@
 
 These are short daily logs about the development process. Read also [development notes](./notes.md) for random thought and ideas that are bubbling behind the scenes.
 
+## February 2021
+
+- Added [section about documentation](/architecture/requirements/documentation.md)
+- Over a year in the making, we now have an actual [Iteration Plan ticket](https://gitlab.com/slipmatio/development/-/issues/41) in the works and a plan to open up the new beta in Q1 2021!
+## January 2021
+
+- First vacation in a year! 🎉
+
+## December 2020
+
+- Created [labs.slipmat.io](https://labs.slipmat.io/) that collects and lists all the past and current experimental development projects.
+- Published [@slipmatio/ui](https://www.npmjs.com/package/@slipmatio/ui) package to NPM.
+- Started experimenting with new UI design in the [ui-demo repository](https://gitlab.com/slipmatio/ui-demos). All new designs are based on Tailwind CSS and are built mobile-first.
+
 ## November 2020
 
 - Added [Contributing section](../contributing/index.md) with basic information on how to contribute to Slipmat projects.
